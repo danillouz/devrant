@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "rants": [
+    {
+      "id": 43511,
+      "text": "when people think you know everything...",
+      "num_upvotes": 38,
+      "num_downvotes": 1,
+      "score": 37,
+      "created_time": 1464610498,
+      "attached_image": {
+        "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_43511_uQDW4.jpg",
+        "width": 600,
+        "height": 300
+      },
+      "num_comments": 5,
+      "tags": [
+
+      ],
+      "vote_state": 0,
+      "user_id": 15601,
+      "user_username": "Mung00se",
+      "user_score": 272
+    }
+  ],
+  "settings": [
+
+  ],
+  "wrw": 2,
+  "news": {
+    "id": 5,
+    "type": "intlink",
+    "headline": "Weekly Group Rant",
+    "body": "Your most ridiculous recruiter experience?",
+    "footer": "Add tag 'wk2' to your rant",
+    "height": 100,
+    "action": "grouprant"
+  }
+}

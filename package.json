@@ -1,0 +1,41 @@
+{
+  "name": "devrant",
+  "version": "0.0.1",
+  "description": "Unofficial wrapper of the public product hunt API.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint --color src/ test/ --ext .js",
+    "clean": "rm -rf lib coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danillouz/devrant.git"
+  },
+  "keywords": [
+    "devrant",
+    "public",
+    "api"
+  ],
+  "author": "Daniel Illouz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danillouz/devrant/issues"
+  },
+  "homepage": "https://github.com/danillouz/devrant#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.2",
+    "eslint": "^2.11.1",
+    "mocha": "^2.5.3",
+    "nock": "^8.0.0",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "node-fetch": "^1.5.3"
+  }
+}

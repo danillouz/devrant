@@ -1,0 +1,91 @@
+{
+  "rant": {
+    "id": 43511,
+    "text": "when people think you know everything...",
+    "num_upvotes": 39,
+    "num_downvotes": 1,
+    "score": 38,
+    "created_time": 1464610498,
+    "attached_image": {
+      "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_43511_uQDW4.jpg",
+      "width": 600,
+      "height": 300
+    },
+    "num_comments": 5,
+    "tags": [
+
+    ],
+    "vote_state": 0,
+    "user_id": 15601,
+    "user_username": "Mung00se",
+    "user_score": 273
+  },
+  "comments": [
+    {
+      "id": 43529,
+      "rant_id": 43511,
+      "body": "But at some point we all do it.",
+      "num_upvotes": 2,
+      "num_downvotes": 0,
+      "score": 2,
+      "created_time": 1464611516,
+      "vote_state": 0,
+      "user_id": 505,
+      "user_username": "Jumpshot44",
+      "user_score": 2233
+    },
+    {
+      "id": 43593,
+      "rant_id": 43511,
+      "body": "My desk is next to the main printer at my work. Everyone thinks that my desk is there specifically to fix their problems. Eventually, I wrote a sign in crayon (because printing would imply I have used it) \"I can't fix your printer\"",
+      "num_upvotes": 1,
+      "num_downvotes": 0,
+      "score": 1,
+      "created_time": 1464616104,
+      "vote_state": 0,
+      "user_id": 15608,
+      "user_username": "LoyalRayne",
+      "user_score": 26
+    },
+    {
+      "id": 43604,
+      "rant_id": 43511,
+      "body": "I fixed my grandmother's printer last week remotely. I had her unplug it and plug it back in after 30 secs lol.",
+      "num_upvotes": 1,
+      "num_downvotes": 0,
+      "score": 1,
+      "created_time": 1464616561,
+      "vote_state": 0,
+      "user_id": 13485,
+      "user_username": "Coderman",
+      "user_score": 71
+    },
+    {
+      "id": 43635,
+      "rant_id": 43511,
+      "body": "I wish I could upvote this a thousand times.\n\nAlso, every Tom Dick and Harry wants to know \"oh can you help me write an app\", because of course I don't actually have a day job....",
+      "num_upvotes": 1,
+      "num_downvotes": 0,
+      "score": 1,
+      "created_time": 1464618779,
+      "vote_state": 0,
+      "user_id": 43625,
+      "user_username": "dpmedeiros",
+      "user_score": 3
+    },
+    {
+      "id": 43712,
+      "rant_id": 43511,
+      "body": "My teachers always ask us for the most ridiculous things just because we are in an IT course.\n\nNo teacher, I can't login to your son's Facebook account just because you want to know what he's up to with his friends.",
+      "num_upvotes": 0,
+      "num_downvotes": 0,
+      "score": 0,
+      "created_time": 1464622702,
+      "vote_state": 0,
+      "user_id": 42662,
+      "user_username": "gustash",
+      "user_score": 199
+    }
+  ],
+  "success": true
+}

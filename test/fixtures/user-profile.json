@@ -1,0 +1,841 @@
+{
+  "success": true,
+  "profile": {
+    "username": "danillouz",
+    "score": 207,
+    "about": "I spend too much time tweaking my terminal and color schemes..",
+    "location": "The Netherlands",
+    "created_time": 1463432703,
+    "skills": "Node.js, JavaScript, mongoDB, GraphQL, ObjectiveC, Go",
+    "github": "danillouz",
+    "content": {
+      "content": {
+        "rants": [
+          {
+            "id": 38898,
+            "text": "Me and my team are working on a system where we depend on a component that was built by a different dev team and hasn't been integration tested yet, because it's that new. This is how it's going..",
+            "num_upvotes": 35,
+            "num_downvotes": 0,
+            "score": 35,
+            "created_time": 1464211080,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_38898_Z93E9.gif",
+              "width": 380,
+              "height": 230
+            },
+            "num_comments": 2,
+            "tags": [
+              "teams",
+              "integration-testing",
+              "dependencies"
+            ],
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 35257,
+            "text": "Since I saw @trostik hacking on the API, I wanted to do something too! Here's my attempt, my facebook messenger bot can now fetch the algo feed.\r\n\r\nhttps://github.com/danillouz/...",
+            "num_upvotes": 25,
+            "num_downvotes": 0,
+            "score": 25,
+            "created_time": 1463929287,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_35257_rvvcC.gif",
+              "width": 480,
+              "height": 518
+            },
+            "num_comments": 7,
+            "tags": [
+              "api",
+              "devrant"
+            ],
+            "vote_state": 0,
+            "links": [
+              {
+                "type": "url",
+                "url": "https://github.com/danillouz/benderobot",
+                "short_url": "https://github.com/danillouz/...",
+                "title": "https://github.com/danillouz/...",
+                "start": 148,
+                "end": 180,
+                "special": 1
+              }
+            ],
+            "special": true,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 34077,
+            "text": "This is the second weekend in a row where I spent hours tweaking my terminal and color schemes.. I might need an intervention..",
+            "num_upvotes": 12,
+            "num_downvotes": 0,
+            "score": 12,
+            "created_time": 1463841637,
+            "attached_image": "",
+            "num_comments": 8,
+            "tags": [
+              "terminal color-schemes"
+            ],
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 31798,
+            "text": "Introduced devRant to the team today, we didn't get that much work done.. Instead we were laughing about rants, brainstorming which of our recent experiences would be good rants to post and we kept cheering each other on whenever one of us got an upvote. It was beautiful. Today was a great day, thanks everyone.",
+            "num_upvotes": 59,
+            "num_downvotes": 1,
+            "score": 58,
+            "created_time": 1463680516,
+            "attached_image": "",
+            "num_comments": 9,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 30935,
+            "text": "\"Who the hell wrote this piece of sh*t code!?\"\n\ngit blame\n\n\"Oh crap.. It was me..\"",
+            "num_upvotes": 43,
+            "num_downvotes": 1,
+            "score": 42,
+            "created_time": 1463613964,
+            "attached_image": "",
+            "num_comments": 0,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          }
+        ],
+        "upvoted": [
+          {
+            "id": 42586,
+            "text": "My office desk",
+            "num_upvotes": 65,
+            "num_downvotes": 0,
+            "score": 65,
+            "created_time": 1464530939,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_42586_9jWtu.jpg",
+              "width": 800,
+              "height": 600
+            },
+            "num_comments": 18,
+            "tags": [
+              "mydesk"
+            ],
+            "vote_state": 0,
+            "user_id": 13541,
+            "user_username": "dvlpr",
+            "user_score": 104
+          },
+          {
+            "id": 42238,
+            "text": "Trying to decide how to spend my weekend, continue to learn node.js and angular.js OR learn vim OR work on side project...to many choices not enough time",
+            "num_upvotes": 19,
+            "num_downvotes": 0,
+            "score": 19,
+            "created_time": 1464491360,
+            "attached_image": "",
+            "num_comments": 12,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 1871,
+            "user_username": "Nojil",
+            "user_score": 689
+          },
+          {
+            "id": 41065,
+            "text": "*hot chic from office walks up to me*\nHer: hi,are you the computer guy?\n\nMe: heey,that's me..wassup\n\nHer: nothing,you just seem different from the others ..you're so calm under all these deadlines.\n\nMe: sure, when I'm frustrated I go to devrant\n\nHer: where's that?\n\nMe: exactly\n\nHer: you're so funny.\n Me: wanna grab lunch\n\n* nothing ever happens how I imagine them..except code*",
+            "num_upvotes": 6,
+            "num_downvotes": 2,
+            "score": 4,
+            "created_time": 1464383186,
+            "attached_image": "",
+            "num_comments": 4,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 36031,
+            "user_username": "vAPl",
+            "user_score": 53
+          },
+          {
+            "id": 40668,
+            "text": "We had a great 1st devRant meetup! Thanks for coming guys!",
+            "num_upvotes": 77,
+            "num_downvotes": 0,
+            "score": 77,
+            "created_time": 1464358879,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_40668_Rgkx8.jpg",
+              "width": 800,
+              "height": 600
+            },
+            "num_comments": 10,
+            "tags": [
+              "devrant",
+              "nyc",
+              "meetup"
+            ],
+            "vote_state": 0,
+            "user_id": 487,
+            "user_username": "dfox",
+            "user_score": 1571
+          },
+          {
+            "id": 39340,
+            "text": "The number of reposts is too damn high ...",
+            "num_upvotes": 14,
+            "num_downvotes": 2,
+            "score": 12,
+            "created_time": 1464258956,
+            "attached_image": "",
+            "num_comments": 0,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 7914,
+            "user_username": "heluvaguy",
+            "user_score": 148
+          },
+          {
+            "id": 39099,
+            "text": "All JavaScript developers will understand :|",
+            "num_upvotes": 85,
+            "num_downvotes": 2,
+            "score": 83,
+            "created_time": 1464230735,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_39099_4MvvM.jpg",
+              "width": 613,
+              "height": 240
+            },
+            "num_comments": 7,
+            "tags": [
+              "js",
+              "javascript"
+            ],
+            "vote_state": 0,
+            "user_id": 23313,
+            "user_username": "SD010",
+            "user_score": 1221
+          },
+          {
+            "id": 35094,
+            "text": "ah the non-tech guys! ㄟ( ･ө･ )ㄏ",
+            "num_upvotes": 59,
+            "num_downvotes": 1,
+            "score": 58,
+            "created_time": 1463919670,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_35094_v9DBw.jpg",
+              "width": 610,
+              "height": 318
+            },
+            "num_comments": 1,
+            "tags": [
+              "non-tech",
+              "c#"
+            ],
+            "vote_state": 0,
+            "user_id": 34308,
+            "user_username": "techedlaksh",
+            "user_score": 156
+          },
+          {
+            "id": 34866,
+            "text": "In Mexico, all the developers are seniors.",
+            "num_upvotes": 76,
+            "num_downvotes": 0,
+            "score": 76,
+            "created_time": 1463900837,
+            "attached_image": "",
+            "num_comments": 3,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 16888,
+            "user_username": "Raspik",
+            "user_score": 579
+          },
+          {
+            "id": 34857,
+            "text": "So I may have got a little fed up with people complaining about problems at work...  Apologies to @dfox. I'll stop scraping your website now 😬",
+            "num_upvotes": 18,
+            "num_downvotes": 0,
+            "score": 18,
+            "created_time": 1463899227,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_34857_YH6Ty.gif",
+              "width": 799,
+              "height": 700
+            },
+            "num_comments": 7,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 18426,
+            "user_username": "ChrisCooney",
+            "user_score": 202
+          },
+          {
+            "id": 34570,
+            "text": "Visual studio just crashed. I hadn't been CTRL+S'ing for an hour or so. I was raging at myself! Took quite a bit of time to refocus.\n\nRe-wrote it in half the time and it feels better written and commented. Now annoyed at myself for being so pissed off beforehand! >_<",
+            "num_upvotes": 19,
+            "num_downvotes": 0,
+            "score": 19,
+            "created_time": 1463873184,
+            "attached_image": "",
+            "num_comments": 5,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 21948,
+            "user_username": "Lamargo",
+            "user_score": 20
+          },
+          {
+            "id": 34463,
+            "text": "Open Source devRant Analyzer (demo project)  released. \n\nPrevew - http://dranalyzer.glimpsedash.com \nSource code - https://github.com/trostik/...\n\n\nEnjoy,  and send me some cookies :p",
+            "num_upvotes": 20,
+            "num_downvotes": 0,
+            "score": 20,
+            "created_time": 1463867879,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_34463_xSZHo.jpg",
+              "width": 493,
+              "height": 999
+            },
+            "num_comments": 9,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "links": [
+              {
+                "type": "url",
+                "url": "http://dranalyzer.glimpsedash.com",
+                "short_url": "http://dranalyzer.glimpsedash.com",
+                "title": "http://dranalyzer.glimpsedash.com",
+                "start": 66,
+                "end": 99,
+                "special": 1
+              },
+              {
+                "type": "url",
+                "url": "https://github.com/trostik/devrant-analyzer",
+                "short_url": "https://github.com/trostik/...",
+                "title": "https://github.com/trostik/...",
+                "start": 115,
+                "end": 145,
+                "special": 1
+              }
+            ],
+            "special": true,
+            "user_id": 1455,
+            "user_username": "trostik",
+            "user_score": 1470
+          },
+          {
+            "id": 34204,
+            "text": "I wish all my friends were like you guys <3",
+            "num_upvotes": 33,
+            "num_downvotes": 1,
+            "score": 32,
+            "created_time": 1463850566,
+            "attached_image": "",
+            "num_comments": 7,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 26264,
+            "user_username": "RattKom",
+            "user_score": 92
+          },
+          {
+            "id": 34191,
+            "text": "How everyone see weekends: \nIts party time and I can finally sleep and watch movies as much as I want...\n\nHow devs see weekends:\nFinally I can work more on this cool project...",
+            "num_upvotes": 54,
+            "num_downvotes": 0,
+            "score": 54,
+            "created_time": 1463850010,
+            "attached_image": "",
+            "num_comments": 5,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 22238,
+            "user_username": "juzles",
+            "user_score": 313
+          },
+          {
+            "id": 34190,
+            "text": "Colleague: I have an error in my application, can you help me?\nMe: Sure\n*walks next to him*\nMe: So... What is it?\nColleague: Here, it won't run\n*launches the application and runs perfectly*\nColleague: Tell me your secret senpai",
+            "num_upvotes": 22,
+            "num_downvotes": 0,
+            "score": 22,
+            "created_time": 1463849912,
+            "attached_image": "",
+            "num_comments": 6,
+            "tags": [
+              "magic",
+              "code"
+            ],
+            "vote_state": 0,
+            "user_id": 21675,
+            "user_username": "IAL32",
+            "user_score": 110
+          },
+          {
+            "id": 34130,
+            "text": "Does anyone else adore the show Silicon Valley?",
+            "num_upvotes": 91,
+            "num_downvotes": 1,
+            "score": 90,
+            "created_time": 1463844700,
+            "attached_image": "",
+            "num_comments": 13,
+            "tags": [
+              "tv silicon-valley"
+            ],
+            "vote_state": 0,
+            "user_id": 20920,
+            "user_username": "gabbales",
+            "user_score": 228
+          },
+          {
+            "id": 33983,
+            "text": "Saw you all talking about the API so i decided to  take it for a spin\n\n* 2 hours on a clock (had to stop have my personal project to work on\n* done only with angularjs \n* will put it online on github after fixing some thing with Davids help",
+            "num_upvotes": 38,
+            "num_downvotes": 0,
+            "score": 38,
+            "created_time": 1463835824,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_33983_hZLVb.jpg",
+              "width": 800,
+              "height": 797
+            },
+            "num_comments": 12,
+            "tags": [
+              "trostik"
+            ],
+            "vote_state": 0,
+            "user_id": 1455,
+            "user_username": "trostik",
+            "user_score": 1470
+          },
+          {
+            "id": 33969,
+            "text": "Real fact!!!",
+            "num_upvotes": 44,
+            "num_downvotes": 2,
+            "score": 42,
+            "created_time": 1463835190,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_33969_mpErP.jpg",
+              "width": 476,
+              "height": 291
+            },
+            "num_comments": 7,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 33965,
+            "user_username": "Saksham7821",
+            "user_score": 40
+          },
+          {
+            "id": 33923,
+            "text": "Too many side projects that you have lost motivation to continue or no time to complete :(",
+            "num_upvotes": 58,
+            "num_downvotes": 0,
+            "score": 58,
+            "created_time": 1463830587,
+            "attached_image": "",
+            "num_comments": 4,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 33919,
+            "user_username": "frenzyboi",
+            "user_score": 58
+          },
+          {
+            "id": 33865,
+            "text": "When new junior front-end tells you he doesn't need to know javascript since he already knows angular.",
+            "num_upvotes": 102,
+            "num_downvotes": 2,
+            "score": 100,
+            "created_time": 1463824294,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_33865_ax52a.jpg",
+              "width": 240,
+              "height": 204
+            },
+            "num_comments": 6,
+            "tags": [
+              "front-end",
+              "angular",
+              "javascript"
+            ],
+            "vote_state": 0,
+            "user_id": 33138,
+            "user_username": "kargaroth",
+            "user_score": 151
+          },
+          {
+            "id": 33527,
+            "text": "Time for another update on our slack bot, this time i am armed with a demo...",
+            "num_upvotes": 30,
+            "num_downvotes": 1,
+            "score": 29,
+            "created_time": 1463790811,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_33527_wDgNp.gif",
+              "width": 800,
+              "height": 544
+            },
+            "num_comments": 8,
+            "tags": [
+              "devrant",
+              "slack"
+            ],
+            "vote_state": 0,
+            "user_id": 1150,
+            "user_username": "nblackburn",
+            "user_score": 718
+          },
+          {
+            "id": 33198,
+            "text": "git config --global alias.unfuck 'reset HEAD --'\n\nThank me later...",
+            "num_upvotes": 36,
+            "num_downvotes": 0,
+            "score": 36,
+            "created_time": 1463771590,
+            "attached_image": "",
+            "num_comments": 5,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 17932,
+            "user_username": "thatwasmyidea",
+            "user_score": 466
+          },
+          {
+            "id": 32791,
+            "text": "When there's a dev on your team that's infamous for throwing code over the fence and you're always the one cleaning it up.. priceless.",
+            "num_upvotes": 4,
+            "num_downvotes": 0,
+            "score": 4,
+            "created_time": 1463747770,
+            "attached_image": "",
+            "num_comments": 0,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 28267,
+            "user_username": "Casanovanoir",
+            "user_score": 83
+          },
+          {
+            "id": 31989,
+            "text": "waiting for your mate to check in his branch so your issue isn't blocked anymore",
+            "num_upvotes": 33,
+            "num_downvotes": 0,
+            "score": 33,
+            "created_time": 1463688522,
+            "attached_image": {
+              "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_31989_H93KQ.jpg",
+              "width": 600,
+              "height": 395
+            },
+            "num_comments": 0,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 15803,
+            "user_username": "BMazeing",
+            "user_score": 37
+          },
+          {
+            "id": 31757,
+            "text": "Sometimes dealing with office politics is tougher than coding challenges!!",
+            "num_upvotes": 23,
+            "num_downvotes": 0,
+            "score": 23,
+            "created_time": 1463677375,
+            "attached_image": "",
+            "num_comments": 0,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 24520,
+            "user_username": "dhruv",
+            "user_score": 36
+          },
+          {
+            "id": 31665,
+            "text": "The Captain Obvious commenter:\n\n// account deletion \naccount.delete()\n\n// check results \nif results.any()\n\n\n.... which eventually leads confusing unmaintained comments",
+            "num_upvotes": 51,
+            "num_downvotes": 1,
+            "score": 50,
+            "created_time": 1463673116,
+            "attached_image": "",
+            "num_comments": 5,
+            "tags": [
+
+            ],
+            "vote_state": 0,
+            "user_id": 28827,
+            "user_username": "tumtumtum",
+            "user_score": 168
+          }
+        ],
+        "comments": [
+          {
+            "id": 41422,
+            "rant_id": 41065,
+            "body": "@xroad Hodor",
+            "num_upvotes": 3,
+            "num_downvotes": 0,
+            "score": 3,
+            "created_time": 1464425475,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 39354,
+            "rant_id": 38898,
+            "body": "@HelmetBro you mean poor us right!? :p",
+            "num_upvotes": 0,
+            "num_downvotes": 0,
+            "score": 0,
+            "created_time": 1464261154,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 39227,
+            "rant_id": 39099,
+            "body": "Nice, I see you've mastered the art of building pyramids.",
+            "num_upvotes": 4,
+            "num_downvotes": 0,
+            "score": 4,
+            "created_time": 1464246575,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 35495,
+            "rant_id": 35257,
+            "body": "@caroso1222 thanks!",
+            "num_upvotes": 1,
+            "num_downvotes": 0,
+            "score": 1,
+            "created_time": 1463944091,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 35291,
+            "rant_id": 35257,
+            "body": "@elraE Bender has some sass :p",
+            "num_upvotes": 1,
+            "num_downvotes": 0,
+            "score": 1,
+            "created_time": 1463932557,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 35290,
+            "rant_id": 35257,
+            "body": "@dfox Cool! And glad you like it!",
+            "num_upvotes": 1,
+            "num_downvotes": 0,
+            "score": 1,
+            "created_time": 1463932532,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 34934,
+            "rant_id": 34570,
+            "body": "Haha yeah that's very recognizable, 2nd rewrite is usually far better. As for the saving, for me it's \"CMD + s\" and it has become muscle memory, I sometimes catch myself doing it when typing outside an editor.",
+            "num_upvotes": 1,
+            "num_downvotes": 0,
+            "score": 1,
+            "created_time": 1463907055,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 34333,
+            "rant_id": 34190,
+            "body": "This only happens to amazing coders who can actually intimidate code into working.",
+            "num_upvotes": 2,
+            "num_downvotes": 0,
+            "score": 2,
+            "created_time": 1463860468,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 34177,
+            "rant_id": 34077,
+            "body": "@champion01 that's Windows only right? I'm using the iTerm2 version 3 beta, it's awesome! But it's Mac only.",
+            "num_upvotes": 1,
+            "num_downvotes": 0,
+            "score": 1,
+            "created_time": 1463848862,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 34153,
+            "rant_id": 34077,
+            "body": "@afduarte used agnoster for a long time myself! Using something a bit less extravagant though.",
+            "num_upvotes": 0,
+            "num_downvotes": 0,
+            "score": 0,
+            "created_time": 1463847032,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 34089,
+            "rant_id": 34077,
+            "body": "@trostik no, (oh my) zsh, but am hearing positive things about fish lately",
+            "num_upvotes": 1,
+            "num_downvotes": 0,
+            "score": 1,
+            "created_time": 1463842190,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 33831,
+            "rant_id": 33641,
+            "body": "What about the spacing between the function keyword and the parens? That's another holy war right there!",
+            "num_upvotes": 4,
+            "num_downvotes": 0,
+            "score": 4,
+            "created_time": 1463821858,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 33397,
+            "rant_id": 33198,
+            "body": "Nice! Mine is \"alias.fuckit !git reset --hard HEAD && git clean -d -f\"\n\nI also have \"alias.aliases config --get-regexp alias\" to show all my aliases.",
+            "num_upvotes": 0,
+            "num_downvotes": 0,
+            "score": 0,
+            "created_time": 1463781748,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 31939,
+            "rant_id": 31798,
+            "body": "@Nojil winter is coming..",
+            "num_upvotes": 5,
+            "num_downvotes": 0,
+            "score": 5,
+            "created_time": 1463686209,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 31866,
+            "rant_id": 31798,
+            "body": "@dfox thanks for making devRant!",
+            "num_upvotes": 2,
+            "num_downvotes": 0,
+            "score": 2,
+            "created_time": 1463683120,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          },
+          {
+            "id": 31396,
+            "rant_id": 31367,
+            "body": "Also relevant, \"nothing is more permanent than a temporary solution\".",
+            "num_upvotes": 9,
+            "num_downvotes": 0,
+            "score": 9,
+            "created_time": 1463656799,
+            "vote_state": 0,
+            "user_id": 27942,
+            "user_username": "danillouz",
+            "user_score": 207
+          }
+        ]
+      },
+      "counts": {
+        "rants": 5,
+        "upvoted": 37,
+        "comments": 16
+      }
+    }
+  }
+}
