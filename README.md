@@ -2,7 +2,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.2-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.3-blue.svg
 [npm-url]: https://www.npmjs.com/package/devrant
 [travis-image]: https://travis-ci.org/danillouz/devrant.svg?branch=master
 [travis-url]: https://travis-ci.org/danillouz/devrant
@@ -106,27 +106,25 @@ Retrieve the profile of a devRant user by username.
 
 ## Rant Object Simple
 ```json
-[
-  {
-    "id": 43511,
-    "text": "when people think you know everything...",
-    "num_upvotes": 38,
-    "num_downvotes": 1,
-    "score": 37,
-    "created_time": 1464610498,
-    "attached_image": {
-      "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_43511_uQDW4.jpg",
-      "width": 600,
-      "height": 300
-    },
-    "num_comments": 5,
-    "tags": [ ],
-    "vote_state": 0,
-    "user_id": 15601,
-    "user_username": "Mung00se",
-    "user_score": 272
-  }
-]
+{
+  "id": 43511,
+  "text": "when people think you know everything...",
+  "num_upvotes": 38,
+  "num_downvotes": 1,
+  "score": 37,
+  "created_time": 1464610498,
+  "attached_image": {
+    "url": "https://d1fvlyhrbsf219.cloudfront.net/devrant/rant/r_43511_uQDW4.jpg",
+    "width": 600,
+    "height": 300
+  },
+  "num_comments": 5,
+  "tags": [ ],
+  "vote_state": 0,
+  "user_id": 15601,
+  "user_username": "Mung00se",
+  "user_score": 272
+}
 ```
 
 ## Rant Object Full
@@ -255,9 +253,14 @@ Retrieve the profile of a devRant user by username.
 }
 ```
 
-## Example 1
-Fetch rant with id `43511`:
+## Examples
+- [Rant](#fetch-rant-with-id-43511)
+- [Rants with Options](#fetch-10-rants-of-type-top-and-skip-the-first-10)
+- [Rants Default](#fetch-50-rants-of-type-algo-and-skip-0-by-using-default-behavior)
+- [Search](#fetch-all-rants-that-match-the-search-term-javascript)
+- [Profile](#fetch-the-profile-of-the-devrant-user-with-username-dfox)
 
+#### Fetch rant with id `43511`
 ```javascript
 'use strict';
 
@@ -273,9 +276,7 @@ devRant
   });
 ```
 
-## Example 2
-Fetch `10` rants of type `top` and skip the first `10`:
-
+#### Fetch `10` rants of type `top` and skip the first `10`
 ```javascript
 const devRant = require('devrant');
 
@@ -293,10 +294,7 @@ devRant
   });
 ```
 
-## Example 3
-Fetch `50` rants of type `algo` and skip `0` by using
-default behavior:
-
+#### Fetch `50` rants of type `algo` and skip `0` by using default behavior
 ```javascript
 'use strict';
 
@@ -314,9 +312,7 @@ function algoRants() {
 algoRants();
 ```
 
-## Example 4
-Fetch all rants that match the search term `javascript`:
-
+#### Fetch all rants that match the search term `javascript`
 ```javascript
 'use strict';
 
@@ -334,10 +330,7 @@ function search(term) {
 search('javascript');
 ```
 
-## Example 5
-Fetch the profile of the devRant user with username
-`dfox`:
-
+#### Fetch the profile of the devRant user with username `dfox`
 ```javascript
 'use strict';
 
