@@ -1,7 +1,7 @@
 {
   "name": "devrant",
-  "version": "0.0.1",
-  "description": "Unofficial wrapper of the public product hunt API.",
+  "version": "0.0.2",
+  "description": "Unofficial wrapper for the public product hunt API.",
   "main": "src/index.js",
   "engines": {
     "node": ">=6.0.0"

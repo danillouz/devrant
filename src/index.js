@@ -35,7 +35,7 @@ function _noUsernameError() {
 }
 
 /**
- * Retrieve a the user id associated with the devRant
+ * Retrieve the user id associated with the devRant
  * username.
  *
  * @private
