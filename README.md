@@ -2,7 +2,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.3-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.4-blue.svg
 [npm-url]: https://www.npmjs.com/package/devrant
 [travis-image]: https://travis-ci.org/danillouz/devrant.svg?branch=master
 [travis-url]: https://travis-ci.org/danillouz/devrant
@@ -22,6 +22,12 @@ This module exposes methods to fetch rants (posts) from
 devRant and to fetch the profile of a devRant user by
 username.
 
+## devRant Display Requirements
+When displaying the contents of a rant fetched from the
+[devRant](https://www.devrant.io/) API, it is **required**
+to credit the author of a rant by displaying their devRant
+username.
+
 ## Syntax
 ```javascript
 devRant
@@ -36,16 +42,16 @@ used:
 
 | METHOD | ARGUMENTS | RETURNS | DESCRIPTION |
 | --- | --- | --- | --- |
-| [rant](#rantid) | Yes | `Promise` | Retrieve a single rant from devRant. Use this method to retrieve a rant with its full text and comments. _The retrieved rant is [Full Rant Object](#rant-object-full)._ |
-| [rants](#rantsoptions) | Optional | `Promise` | Retrieve rants from devRant. _The retrieved rants are [Simple Rant Objects](#rant-object-simple)._ |
-| [search](#searchterm) | Yes | `Promise` | Retrieve rants from devRant that match a specific search term. _The retrieved rants are [Simple Rant Objects](#rant-object-simple)._ |
-| [profile](#profileusername) | Yes | `Promise` | Retrieve the profile of a devRant user by username. |
+| [rant](#rantid) | Yes | `Promise` | Retrieve a single rant from devRant. Use this method to retrieve a rant with its full text and comments. The retrieved rant is a [Full Rant Object](#rant-object-full). |
+| [rants](#rantsoptions) | Optional | `Promise` | Retrieve rants from devRant. The retrieved rants are [Simple Rant Objects](#rant-object-simple). |
+| [search](#searchterm) | Yes | `Promise` | Retrieve rants from devRant that match a specific search term. The retrieved rants are [Simple Rant Objects](#rant-object-simple). |
+| [profile](#profileusername) | Yes | `Promise` | Retrieve the profile of a devRant user by username. The retrieved profile is a [Profile Object](#profile-object). |
 
 ### .rant(id)
 Retrieve a single rant from devRant. Use this method to retrieve a rant
 with its full text and comments.
 
-_The retrieved rant is [Full Rant Object](#rant-object-full)._
+The retrieved rant is a [Full Rant Object](#rant-object-full).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
@@ -62,7 +68,7 @@ By providing an options Object as an argument, it's possible
 to sort by `algo`, `recent` and `top` rants. As well as
 limiting and skipping the amount of rants to be fetched.
 
-_The retrieved rants are [Simple Rant Objects](#rant-object-simple)._
+The retrieved rants are [Simple Rant Objects](#rant-object-simple).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
@@ -72,7 +78,7 @@ _The retrieved rants are [Simple Rant Objects](#rant-object-simple)._
 ###### Options
 | OPTIONS KEY | TYPE | DESCRIPTION |
 | --- | --- | --- | --- |
-| sort  | String  | **Optional**. The type of rants to be fetched. Must be `algo`, `recent` or `top`. When omitted, it defaults to `algo` |
+| sort  | String  | **Optional**. The type of rants to be fetched. Must be `algo`, `recent` or `top`. When omitted, it defaults to `algo`. |
 | limit | Number | **Optional**. The amount of rants to be fetched. When omitted, it defaults to `50`. |
 | skip | Number | **Optional**. The amount of rants to be skipped. When omitted, it defaults to `0`. |
 
@@ -83,7 +89,7 @@ _The retrieved rants are [Simple Rant Objects](#rant-object-simple)._
 Retrieve rants from devRant that match a specific search
 term.
 
-_The retrieved rants are [Simple Rant Objects](#rant-object-simple)._
+The retrieved rants are [Simple Rant Objects](#rant-object-simple).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
@@ -95,6 +101,8 @@ _The retrieved rants are [Simple Rant Objects](#rant-object-simple)._
 
 ### .profile(username)
 Retrieve the profile of a devRant user by username.
+
+The retrieved profile is a [Profile Object](#profile-object).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |

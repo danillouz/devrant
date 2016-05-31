@@ -1,6 +1,6 @@
 {
   "name": "devrant",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Unofficial wrapper for the public devRant API.",
   "main": "src/index.js",
   "engines": {
