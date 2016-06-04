@@ -1,6 +1,6 @@
 {
   "name": "devrant",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Unofficial wrapper for the public devRant API.",
   "main": "src/index.js",
   "engines": {
@@ -35,6 +35,7 @@
     "sinon": "^1.17.4"
   },
   "dependencies": {
+    "co": "^4.6.0",
     "debug": "^2.2.0",
     "node-fetch": "^1.5.3"
   }

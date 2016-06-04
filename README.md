@@ -2,7 +2,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.4-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.5-blue.svg
 [npm-url]: https://www.npmjs.com/package/devrant
 [travis-image]: https://travis-ci.org/danillouz/devrant.svg?branch=master
 [travis-url]: https://travis-ci.org/danillouz/devrant
