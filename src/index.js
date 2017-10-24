@@ -3,7 +3,7 @@
 const co = require('co');
 const http = require('./utils/http');
 
-const API = 'https://www.devrant.io/api';
+const API = 'https://www.devrant.com/api';
 
 /* eslint new-cap: 0 */
 
