@@ -4,7 +4,7 @@ const chai = require('chai');
 const nock = require('nock');
 const devrant = require('../../src');
 const expect = chai.expect;
-const domain = 'https://www.devrant.io/api/devrant';
+const domain = 'https://www.devrant.com/api/devrant';
 
 describe('http', function () {
 	it('200 status returns data', function *() {
