@@ -2,7 +2,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.6-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.7-blue.svg
 [npm-url]: https://www.npmjs.com/package/devrant
 [travis-image]: https://travis-ci.org/danillouz/devrant.svg?branch=master
 [travis-url]: https://travis-ci.org/danillouz/devrant
@@ -55,8 +55,8 @@ The retrieved rant is a [Full Rant Object](#rant-object-full).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
-| --- | --- | --- | --- |
-| id  | Number | The rant id. For example `43511`. |
+| --- | --- | --- |
+| id | Number | The rant id. For example `43511`. |
 
 ###### Returns
 `Promise`.
@@ -72,13 +72,13 @@ The retrieved rants are [Simple Rant Objects](#rant-object-simple).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
-| --- | --- | --- | --- |
-| options  | Object  | **Optional**. The [options](#options) to control the rants to be fetched. When omitted, `50` rants of type `algo` will be fetched and `0` rants will be skipped. |
+| --- | --- | --- |
+| options | Object | **Optional**. The [options](#options) to control the rants to be fetched. When omitted, `50` rants of type `algo` will be fetched and `0` rants will be skipped. |
 
 ###### Options
 | OPTIONS KEY | TYPE | DESCRIPTION |
-| --- | --- | --- | --- |
-| sort  | String  | **Optional**. The type of rants to be fetched. Must be `algo`, `recent` or `top`. When omitted, it defaults to `algo`. |
+| --- | --- | --- |
+| sort | String | **Optional**. The type of rants to be fetched. Must be `algo`, `recent` or `top`. When omitted, it defaults to `algo`. |
 | limit | Number | **Optional**. The amount of rants to be fetched. When omitted, it defaults to `50`. |
 | skip | Number | **Optional**. The amount of rants to be skipped. When omitted, it defaults to `0`. |
 
@@ -93,8 +93,8 @@ The retrieved rants are [Simple Rant Objects](#rant-object-simple).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
-| --- | --- | --- | --- |
-| term  | String  | The search term used to match specific rants. For example `javascript`, `xcode`, `wk2`, `devrant`, etc. |
+| --- | --- | --- |
+| term | String | The search term used to match specific rants. For example `javascript`, `xcode`, `wk2`, `devrant`, etc. |
 
 ###### Returns
 `Promise`.
@@ -106,8 +106,8 @@ The retrieved profile is a [Profile Object](#profile-object).
 
 ###### Arguments
 | NAME | TYPE | DESCRIPTION |
-| --- | --- | --- | --- |
-| username  | String  | The devRant username. For example `danillouz`, `dfox`, `localhost`, etc. |
+| --- | --- | --- |
+| username | String | The devRant username. For example `danillouz`, `dfox`, `localhost`, etc. |
 
 ###### Returns
 `Promise`.
