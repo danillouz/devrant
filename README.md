@@ -7,7 +7,7 @@
 [travis-image]: https://travis-ci.org/danillouz/devrant.svg?branch=master
 [travis-url]: https://travis-ci.org/danillouz/devrant
 
-Unofficial wrapper for the **public** [devRant](https://www.devrant.io/) API.
+Unofficial wrapper for the **public** [devRant](https://www.devrant.com/) API.
 
 ![devRant](https://raw.githubusercontent.com/danillouz/devrant/master/img/devrant.png "devRant")
 
@@ -24,7 +24,7 @@ username.
 
 ## devRant Display Requirements
 When displaying the contents of a rant fetched from the
-[devRant](https://www.devrant.io/) API, it is **required**
+[devRant](https://www.devrant.com/) API, it is **required**
 to credit the author of a rant by displaying their devRant
 username.
 
