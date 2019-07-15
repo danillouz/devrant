@@ -27,16 +27,16 @@
   },
   "homepage": "https://github.com/danillouz/devrant#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "co-mocha": "^1.1.2",
-    "eslint": "^2.11.1",
-    "mocha": "^2.5.3",
-    "nock": "^8.0.0",
-    "sinon": "^1.17.4"
+    "chai": "^4.2.0",
+    "co-mocha": "^1.2.2",
+    "eslint": "^6.0.1",
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6",
+    "sinon": "^7.3.2"
   },
   "dependencies": {
     "co": "^4.6.0",
-    "debug": "^2.2.0",
-    "node-fetch": "^1.5.3"
+    "debug": "^4.1.1",
+    "node-fetch": "^2.6.0"
   }
 }
